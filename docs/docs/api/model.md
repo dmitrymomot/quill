@@ -24,7 +24,7 @@ var linkBlot = Quill.find(linkNode);
 
 ### getIndex <span class="experimental">experimental</span> {#getindex-experimental}
 
-Returns the distance between the beginning of document to the occurance of the given [Blot](https://github.com/quilljs/parchment).
+Returns the distance between the beginning of document to the occurrence of the given [Blot](https://github.com/quilljs/parchment).
 
 **Methods**
 
@@ -99,6 +99,6 @@ quill.setText('Hello\nGood\nWorld!');
 quill.formatLine(1, 1, 'list', 'bullet');
 
 let lines = quill.getLines(2, 5);
-// array witha a ListItem and Block Blot,
+// array with a ListItem and Block Blot,
 // representing the first two lines
 ```
